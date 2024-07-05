@@ -1,20 +1,39 @@
 *{
-    background-color: rgb(225, 241, 225);
     margin: 10px 5px;
-    padding: 5px;
+    border: 5px;
+    font-family: serif;
+    position: center;
 }
 
 h2{
-    color: red;
+    font-size: large;
+    color: purple;
 }
 
-nav >ul >li {
+h2 span{
+    background-color: rgb(2, 132, 245);
+}
+
+nav > ul > li{
     display: inline;
-    background-color: grey;
+    margin-right: 15px;
+}
+
+table, thead, tr, td{
+    border: solid 1px;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
 }
 
 footer{
-    color: red;
-    text-align: center;
     margin-top: 90px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+}
+
+footer span{
+    color: green;
 }
