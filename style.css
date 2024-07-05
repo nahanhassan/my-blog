@@ -1,0 +1,20 @@
+*{
+    background-color: rgb(225, 241, 225);
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+h2{
+    color: red;
+}
+
+nav >ul >li {
+    display: inline;
+    background-color: grey;
+}
+
+footer{
+    color: red;
+    text-align: center;
+    margin-top: 90px;
+}
